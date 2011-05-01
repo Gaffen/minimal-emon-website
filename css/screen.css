@@ -78,9 +78,17 @@ width: 100px;
 	text-decoration:underline;
 }
 
-#serach{}
+#quote{
+width: 100%;
+float:left;
+}
+
+#serach{
+	float:left;
+	}
 
 #content {
+	float:left;
 }
 
 #footer {

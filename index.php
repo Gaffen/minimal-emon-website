@@ -28,7 +28,7 @@ if(!isset($_GET['id'])){$id = 'homepage';}
 			<div id="search">
 				<?php //include_once("php/search.php");?>
 			</div>
-			<?php include_once("php/quotes.php");?>
+			<div id="quote"><?php include_once("php/quotes.php");?></div>
 			<div id="content">
 				<?php include_once("php/$id.php");?>
 			</div>

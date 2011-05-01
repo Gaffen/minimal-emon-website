@@ -1,0 +1,283 @@
+/*                                                                              
+ _   _                       _      
+| \ | |                     | |     
+|  \| | __ _ _ __   ___   __| | ___ 
+| . ` |/ _` | '_ \ / _ \ / _` |/ _ \
+| |\  | (_| | | | | (_) | (_| |  __/
+\_| \_/\__,_|_| |_|\___/ \__,_|\___|
+*/
+
+html {
+	font-family: 'Helvetica', 'Sans';
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+/* Reset */
+body,img,p,h1,h2,h3,h4,h5,h6,ul,ol {margin:0; padding:0; list-style:none; border:none;}
+/* End Reset */
+
+
+#container{
+	width: 900px;
+	margin: auto;
+}
+
+#header{
+height: 138px;
+width: 100%;
+}
+
+#login{
+float:right;
+height: 50px;
+width: 100px;
+}
+
+#menu{
+/*	position:relative;
+	top: 115px;
+	left: 210px;
+	*/
+	height:36px;
+	width:1000px;
+  font-family: arial;
+  font-weight: normal;
+  font-size: 14px;
+  color: #666;
+  background-color: rgb(230,230,220);
+
+  border-width: 0px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+#menu ul{
+	list-style:none;
+	display:inline;
+}
+
+#menu ul li {
+	display:inline;
+	list-style:none;
+	margin:0;
+}
+	
+#menu ul li a {
+	color: #000000;
+	display:block;
+	float:left;
+	padding:12px 10px 9px 10px;
+	text-align:center;
+	text-decoration:none;
+	line-height:1.3em;
+}
+
+#menu ul li a:hover {
+	text-decoration:underline;
+}
+
+#serach{}
+
+#content {
+}
+
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	background-image: url(../images/footer.png);
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+
+#footer a {
+	color:#000000;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	background-color: transparent;
+	text-decoration:underline;
+}
+
+#footer a:visited {
+	text-decoration:none;
+}
+
+#footer ul {
+	list-style:none;
+}
+
+#f1 {
+	width: 25%;
+	float: left;
+}
+
+#f2{
+	width: 25%;
+	float: left;
+}
+
+#f3{
+	width: 25%;
+	float: left;
+}
+
+#f4{
+	width: 25%;
+	float: left;
+}
+
+
+/*begin the other code
+
+body {
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+img {
+  border: 0px;
+
+}
+
+#bound {
+  width: 900px;
+  height: auto;
+  margin: 0px auto;
+  text-align: left;
+  background-color: #fff;
+  border-width: 0px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+
+}
+
+
+#header {
+  font-family: arial;
+  font-weight: normal;
+  font-size: 14px;
+  color: #666;
+  background-color: #fff;
+  padding-top:40px;
+  margin: 20px;
+  height:140px;
+  width:100%;
+}
+
+#header img{
+ position: fixed;
+ top:0px;
+ left:0px;
+}
+
+
+
+
+#footer {
+  border-bottom-left-radius: 7px 7px;
+  border-bottom-right-radius: 7px 7px;
+  width: 100%; 
+  height: 100px; 
+  background-color: rgb(250,250,250);
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+a:link {
+  color: #7d9cae;
+}
+a:visited {
+  color: #7d9cae;
+}
+a:hover {
+  color: #7d9cae;
+  text-decoration: underline;
+}
+
+#darkbox {
+  width: auto;
+  height: 200px;
+
+  padding:20px;
+
+  font-family: arial;
+  font-weight: normal;
+  font-size: 22px;
+  color: #7d9cae;
+  background-color: rgb(255,250,250);
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.lightbox {
+  width: auto;
+  padding:20px;
+  background-color: rgb(255,250,250);
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.greenButton {
+  width:110px;
+  padding:8px;
+  background-color: rgb(100,255,80);
+  font-size:18px;
+  font-weight:bold;
+  color: #fff;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-width: 0px;
+}
+
+.inputText {
+  font-size:18px; 
+  height:38px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top:2px;
+  margin-right:10px;
+  color: #aaa;
+  text-align:center;
+  border-style: solid;
+  border-color:  rgb(120,255,100);
+  border-width: 2px;
+}
+
+table.catlist {
+  width: 300px;
+  border: 0px;
+  margin:0px;
+border-collapse:collapse
+}
+
+table.catlist th {
+  border: 0px;
+  padding: 10px;
+  margin:0px;
+  background-color: rgb(240,240,240);
+  border-bottom: 2px solid #aaa
+}
+
+table.catlist td {
+  border: 0px;
+  padding: 10px;
+  margin:0px;
+}
+
+table.catlist tr.d0 td {
+	background-color: rgb(240,240,240);
+}
+table.catlist tr.d1 td {
+	background-color: rgb(230,230,230);
+}
+*/

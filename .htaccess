@@ -1,0 +1,20 @@
+Options -Indexes
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+RewriteEngine On
+RewriteRule ^homepage/?$ index.php?id=homepage
+RewriteRule ^contact/?$ index.php?id=contact
+RewriteRule ^blog/?$ index.php?id=blog
+RewriteRule ^about/?$ index.php?id=about
+RewriteRule ^forums/?$ index.php?id=forums
+RewriteRule ^people/?$ index.php?id=people
+RewriteRule ^builds/?$ index.php?id=builds
+RewriteRule ^code/?$ index.php?id=code
+RewriteRule ^recent/?$ index.php?id=recent
+RewriteRule ^emon/?$ index.php?id=emon
+RewriteRule ^nanode/?$ index.php?id=nanode
+RewriteRule ^oem/?$ index.php?id=oem
+RewriteRule ^pv/?$ index.php?id=pv
+RewriteRule ^wireless/?$ index.php?id=wireless
+RewriteRule ^solar_thermal/?$ index.php?id=solar_thermal
